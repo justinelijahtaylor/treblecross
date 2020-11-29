@@ -1,0 +1,45 @@
+#numBoardsLabel {
+  text-align: center;
+}
+
+#generateBoards {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+}
+
+#rangeSliderItem {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 70px;
+  height: 70px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 70px;
+  color: #000;
+}
+
+.board {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  margin-left: 20%;
+}
+
+#gameOverMessage {
+  text-align: center;
+  color: #ff0000;
+  font-size: 48px;
+}
